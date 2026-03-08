@@ -1,0 +1,49 @@
+{
+    "bulten_tarihi": "12.02.2026",
+    "last_update": "2026-03-08T19:00:00Z",
+    "source": "UKON",
+    "ortalama": {
+        "dana": "606.24",
+        "kuzu": "571.50"
+    },
+    "regions": {
+        "EGE": {
+            "dana": "607.50",
+            "kuzu": "651.30"
+        },
+        "AKDENİZ": {
+            "dana": "591.70",
+            "kuzu": "552.00"
+        },
+        "MARMARA": {
+            "dana": "610.00",
+            "kuzu": "698.00"
+        },
+        "İÇ ANADOLU": {
+            "dana": "612.50",
+            "kuzu": "523.10"
+        },
+        "DOĞU ANADOLU": {
+            "dana": "602.00",
+            "kuzu": "486.00"
+        },
+        "GÜNEYDOĞU ANADOLU": {
+            "dana": "595.00",
+            "kuzu": "518.40"
+        },
+        "KARADENİZ": {
+            "dana": "625.00",
+            "kuzu": "571.70"
+        }
+    },
+    "history": [
+        {
+            "date": "2026-03-08T19:00:00Z",
+            "bulten_tarihi": "12.02.2026",
+            "ortalama": {
+                "dana": "606.24",
+                "kuzu": "571.50"
+            }
+        }
+    ]
+}
