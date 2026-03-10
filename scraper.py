@@ -122,24 +122,26 @@ def scrape_ukon():
 
 def normalize_region(name):
     """Bölge ismini Flutter uygulamasındaki formatla eşleşecek şekilde normalize eder."""
-    name = name.strip()
-    mapping = {
-        "Ege Bölgesi": "EGE",
-        "Akdeniz Bölgesi": "AKDENİZ",
-        "Marmara Bölgesi": "MARMARA",
-        "İç Anadolu Bölgesi": "İÇ ANADOLU",
-        "Güneydoğu Anadolu Bölgesi": "GÜNEYDOĞU ANADOLU",
-        "G.Doğu Anadolu Bölgesi": "GÜNEYDOĞU ANADOLU",
-        "Doğu Anadolu Bölgesi": "DOĞU ANADOLU",
-        "Karadeniz Bölgesi": "KARADENİZ",
-    }
+    name_lower = name.strip().lower()
 
-    for key, value in mapping.items():
-        if key.lower() in name.lower() or name.lower() in key.lower():
-            return value
+    if "ege" in name_lower:
+        return "EGE"
+    if "akdeniz" in name_lower:
+        return "AKDENİZ"
+    if "marmara" in name_lower:
+        return "MARMARA"
+    if "iç" in name_lower and "anadolu" in name_lower:
+        return "İÇ ANADOLU"
+    if "güneydoğu" in name_lower or "g.doğu" in name_lower:
+        return "GÜNEYDOĞU ANADOLU"
+    if "doğu" in name_lower and "güney" not in name_lower and "g." not in name_lower:
+        return "DOĞU ANADOLU"
+    if "karadeniz" in name_lower:
+        return "KARADENİZ"
 
     # Eşleşme bulunamazsa büyük harfle döndür
     return name.upper()
+
 
 
 def save_json(data):
