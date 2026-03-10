@@ -130,7 +130,7 @@ def normalize_region(name):
         return "AKDENİZ"
     if "marmara" in name_lower:
         return "MARMARA"
-    if "iç" in name_lower and "anadolu" in name_lower:
+    if ("iç" in name_lower or "i̇ç" in name_lower) and "anadolu" in name_lower:
         return "İÇ ANADOLU"
     if "güneydoğu" in name_lower or "g.doğu" in name_lower:
         return "GÜNEYDOĞU ANADOLU"
