@@ -1,6 +1,6 @@
 {
   "bulten_tarihi": "05.03.2026",
-  "last_update": "2026-03-10T01:41:46.360055Z",
+  "last_update": "2026-03-10T06:42:22.112221Z",
   "source": "UKON",
   "ortalama": {
     "dana": "604.45",
@@ -23,7 +23,7 @@
       "dana": "607.80",
       "kuzu": "558.00"
     },
-    "DOĞU ANADOLU": {
+    "GÜNEYDOĞU ANADOLU": {
       "dana": "595.00",
       "kuzu": "531.70"
     },
@@ -75,6 +75,14 @@
     },
     {
       "date": "2026-03-10T01:41:46.360055Z",
+      "bulten_tarihi": "05.03.2026",
+      "ortalama": {
+        "dana": "604.45",
+        "kuzu": "572.56"
+      }
+    },
+    {
+      "date": "2026-03-10T06:42:22.112221Z",
       "bulten_tarihi": "05.03.2026",
       "ortalama": {
         "dana": "604.45",
