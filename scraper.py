@@ -128,9 +128,9 @@ def normalize_region(name):
         "Akdeniz Bölgesi": "AKDENİZ",
         "Marmara Bölgesi": "MARMARA",
         "İç Anadolu Bölgesi": "İÇ ANADOLU",
-        "Doğu Anadolu Bölgesi": "DOĞU ANADOLU",
         "Güneydoğu Anadolu Bölgesi": "GÜNEYDOĞU ANADOLU",
         "G.Doğu Anadolu Bölgesi": "GÜNEYDOĞU ANADOLU",
+        "Doğu Anadolu Bölgesi": "DOĞU ANADOLU",
         "Karadeniz Bölgesi": "KARADENİZ",
     }
 
