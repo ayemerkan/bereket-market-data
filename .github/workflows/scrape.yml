@@ -1,6 +1,9 @@
 name: UKON Fiyat Scraper
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Her 6 saatte bir çalışır (UTC: 00:00, 06:00, 12:00, 18:00)
     - cron: '0 */6 * * *'
