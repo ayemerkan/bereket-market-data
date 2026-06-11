@@ -1,39 +1,39 @@
 {
-  "bulten_tarihi": "04.06.2026",
-  "last_update": "2026-06-11T03:29:11.110976Z",
+  "bulten_tarihi": "11.06.2026",
+  "last_update": "2026-06-11T20:14:02.393633Z",
   "source": "UKON",
   "ortalama": {
-    "dana": "593.73",
-    "kuzu": "609.17"
+    "dana": "593.21",
+    "kuzu": "610.71"
   },
   "regions": {
     "EGE": {
       "dana": "590.00",
-      "kuzu": "660.00"
+      "kuzu": "655.00"
     },
     "AKDENİZ": {
-      "dana": "587.50",
-      "kuzu": "595.00"
+      "dana": "589.20",
+      "kuzu": "605.00"
     },
     "MARMARA": {
-      "dana": "601.70",
+      "dana": "604.20",
       "kuzu": "670.00"
     },
     "İÇ ANADOLU": {
-      "dana": "591.70",
+      "dana": "589.20",
       "kuzu": "600.00"
     },
     "DOĞU ANADOLU": {
-      "dana": "596.00",
-      "kuzu": "560.00"
+      "dana": "594.00",
+      "kuzu": "565.00"
     },
     "GÜNEYDOĞU ANADOLU": {
-      "dana": "581.70",
-      "kuzu": "540.00"
+      "dana": "594.00",
+      "kuzu": "565.00"
     },
     "KARADENİZ": {
       "dana": "607.50",
-      "kuzu": "639.20"
+      "kuzu": "635.00"
     }
   },
   "history": [
@@ -2899,6 +2899,14 @@
       "ortalama": {
         "dana": "593.73",
         "kuzu": "609.17"
+      }
+    },
+    {
+      "date": "2026-06-11T20:14:02.393633Z",
+      "bulten_tarihi": "11.06.2026",
+      "ortalama": {
+        "dana": "593.21",
+        "kuzu": "610.71"
       }
     }
   ]
